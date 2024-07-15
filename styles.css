@@ -1,0 +1,123 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 1.3sem;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color:green;
+}
+.intro{
+  font-family:cursive;
+  border-style: solid;
+  text-align:center;
+  padding:1.5em;
+  font-size:2.6em;
+  border-width: 2.6em;
+  letter-spacing: 1px; 
+  text-transform: uppercase;
+  word-spacing: 4px;
+  text-decoration: underline;
+  background-color: hsl(0,85%,63%);
+  animation-name:charity;
+  animation-duration: 4s;
+}
+@keyframes charity{
+   from {background-color:hsl(0,85%,63%);}
+  to {background-color:gold;}
+}
+
+.contact{
+  color:black;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+form{
+  text-align: center;
+  padding:20px;
+  background-color: lightskyblue;
+  font-size: 0.5em;
+}
+form input,form textarea{
+    width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+
+}
+button{
+  font-size: 1em;
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border:solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+}
+.dn{
+  display:flex;
+  align:center;
+  background-color:floralwhite;
+}
+.dn h1{
+  padding-top: 1em;
+  padding-left: 11em;
+  font-size: 3em;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.item{
+  background-color: floralwhite;
+}
+.item p{
+  font-size: 1.5em;
+}
+.item button{
+  width:20%;
+}
+.about{
+  background-color: rgba(255, 99, 70, 0.4);
+}
+.about h1{
+
+  font-size: 3em;
+  padding-top: 0.5em;
+  text-decoration: underline;
+  color: red;
+text-decoration-color: black;
+}
+.about p{
+  font-size: 1.5em;
+  font-style: italic;
+
+}

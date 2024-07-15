@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Donate-Education Charity</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="donate.html">Donate</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			<section class="dn">
+				<h1>Donate</h1></section>
+				<div>
+					<img src="photo2.png" width="34.3%" height="20%">
+					<img src="photo3.jpg" width="30.4%" height="10%">
+					<img src="photo4.jpg" width="34.2%" height="20%">
+				</div>
+				<div class="item">
+					<p>Right now,children are growing up against the backdrop of hunger,conflict,poverty and natural disasters.Your donation today can help make change that protects the lives of children,families and their communities.</p>
+					<h2>1.Provide enough food</h2>
+					<h2>2.Give cozy blankets and clothes</h2>
+					<h2>3.Books</h2>
+					<h2>4.Bags</h2>
+					<h2>5.Other</h2>
+					<p>Choose your donation input number from above:</p>
+					<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+ 
+  let x = document.getElementById("numb").value;
+
+  if ( x < 1 || x > 5) {
+    alert("invalid input");
+  } else {
+   alert("Your response submitted");
+  }
+}
+</script>
+				</div>
+				
+			</body>
+			</html>
